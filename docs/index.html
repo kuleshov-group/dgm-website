@@ -1,0 +1,2855 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#b31b1b>
+    <link rel="stylesheet" href="/assets/css/app.css">
+<!--    <link rel="stylesheet" href="/assets/css/app.css">-->
+<!--    <link rel="shortcut icon" type="image/png"-->
+<!--           href="/favicon.png" -->
+<!--    />-->
+    <link rel="shortcut icon" type="image/ico" href="https://errrneist.github.io/img/aml/favicon.ico"/>
+<!--           href="./img/favicon.ico" -->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>CS 6785 - Deep Generated Models | Deep Generated Models</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="CS 6785 - Deep Generated Models" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The site for Cornell Tech’s Deep Generated Models." />
+<meta property="og:description" content="The site for Cornell Tech’s Deep Generated Models." />
+<link rel="canonical" href="/" />
+<meta property="og:url" content="/" />
+<meta property="og:site_name" content="Deep Generated Models" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CS 6785 - Deep Generated Models" />
+<script type="application/ld+json">
+{"url":"/","headline":"CS 6785 - Deep Generated Models","@type":"WebSite","description":"The site for Cornell Tech’s Deep Generated Models.","name":"Deep Generated Models","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Deep Generated Models
+            </a>
+<!--            <figure class="image">-->
+<!--                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_logo.svg"></a>-->
+<!--            </figure>-->
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item is-active">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Student Projects</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/showcase/showcase_2021/" class="navbar-item ">2021</a>
+                            
+                            <a href="/showcase/showcase_2020/" class="navbar-item ">2020</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Past Offerings</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/kuleshov/cornell-cs5785-2021-applied-ml" class="navbar-item ">2021 (Kuleshov)</a>
+                            
+                            <a href="https://github.com/kuleshov/cornell-cs5785-2020-applied-ml" class="navbar-item ">2020 (Kuleshov)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2019/" class="navbar-item ">2019 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2018/index.html" class="navbar-item ">2018 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2017/index.html" class="navbar-item ">2017 (Belongie)</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  is-bold is-primary"  style="background: url('https://aml.hongjunwu.com/img/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+    <!--
+        <section class="hero  is-medium  is-bold is-primary" >
+    -->
+    <div class="hero-body ">
+        <div class="container">
+            <div class = "columns">
+                <div class="column is-one-quarter">
+                    <figure class="image">
+                        <a href="https://www.tech.cornell.edu"><img src="https://aml.hongjunwu.com/img/cornell-tech-logo-optimized.png"></a>
+                    </figure>
+                </div>
+                <div class="column is-1">
+                    <h1 class="title is-2"> </h1>
+                </div>
+                <div class="column">
+                    <h1 class="title is-2">CS 6785 - Deep Generated Models</h1>
+                    <p class="subtitle is-3">Lorem ipsum dolor sit amet.</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-12">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    <div class="columns">
+    <div class="column is-6">
+        <h2>Lorem Ipsum</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <br />
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        <br />
+        <div class="columns">
+        <div class="column is-4">
+            <center><button class="button is-primary is-outlined">About</button></center>
+        </div>
+        <div class="column is-4">
+            <center><button class="button is-primary is-outlined">Prerequisites</button></center>
+        </div>
+        <div class="column is-4">
+            <center><button class="button is-primary is-outlined">Affiliates</button></center>
+        </div>
+    </div>
+    </div>
+    <div class="column is-6">
+        <figure class="image is-16by9"> 
+    <iframe class="has-ratio" src="https://www.youtube.com/embed/vcE9WGbi4QY?start=0&amp;showinfo=0" frameborder="0" allowfullscreen="">
+    </iframe>
+</figure>
+    </div>
+</div>
+
+<hr />
+
+<div class="columns is-centered is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+    <div class="column is-one-fifth">
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/volodymyr_kuleshov.jpg" /></figure>
+        <h3 style="text-align:center">Volodymyr<br />Kuleshov</h3>
+        <p class="subtitle" style="text-align:center">Instructor</p>
+    </div>
+    <div class="column is-one-fifth">
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/nathan_kallus.jpg" /></figure>
+        <h3 style="text-align:center">Nathan<br />Kallus</h3>
+        <p class="subtitle" style="text-align:center">Instructor</p>
+    </div>
+    <div class="column is-one-fifth">
+        <figure class="image is-128x128" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="img/serge_belongie.jpg" /></figure>
+        <h3 style="text-align:center">Serge<br />Belongie</h3>
+        <p class="subtitle" style="text-align:center">Instructor</p>
+    </div>
+    <div class="column">
+        <h3>Instructors</h3>
+        <p><strong>Volodymyr Kuleshov</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><strong>Nathan Kallus</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p><strong>Serge Belongie</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 1: Introduction.</h2>
+    <p>Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="tags">
+        <span class="tag is-success is-light">Supervised Learning</span>
+        <span class="tag is-success is-light">Unsupervised Learning</span>
+        <span class="tag is-success is-light">Reinforcement Learning</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/vcE9WGbi4QY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.1 - Introduction to Machine Learning
+                        </a>
+                        <a href="https://youtu.be/chfwJiXvBMA" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.2 - Three Approaches to Machine Learning
+                        </a>
+                        <a href="https://youtu.be/51p6lLKiv2E" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.3 - About the Course
+                        </a>    
+                        <a href="https://youtu.be/mKhGXSaQk_s" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            1.4 - Logistics and Other Information
+                        </a>  
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture1-introduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 1 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture1-introduction slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 1 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture1-introduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 1 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture1-introduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 1 iPython Notebook 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture1-introduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 1 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 1
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 2: Anatomy of Supervised Machine Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Introduction</span> 
+        <span class="tag is-success is-light">Models</span> 
+        <span class="tag is-success is-light">Features</span> 
+        <span class="tag is-success is-light">Objectives</span>
+        <span class="tag is-success is-light">Model training</span>
+        <span class="tag is-success is-light">Ordinary least squares</span>
+    </div>
+    <p>Description Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/UQFlSs3pu-k" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.1 - A Supervised Machine Learning Problem
+                        </a>
+                        <a href="https://youtu.be/PK6IEeAWiRg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.2 - The Dataset
+                        </a>
+                        <a href="https://youtu.be/PED1OYvQUX4" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            2.3 - Learning Algorithms
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture2-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 2 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture2-supervised-learning slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 2 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture2-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 2 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture2-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 2 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture2-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 2 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 1, Chapter 2.1-2.3, Chapter 3.1-3.2.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 3: Optimization and Linear Regression.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Optimization by gradient descent</span> 
+        <span class="tag is-success is-light">Normal equations</span> 
+        <span class="tag is-success is-light">Polynomial feature expansion</span> 
+        <span class="tag is-success is-light">Extensions of linear regression</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/E5hU0AesA-I" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            3.1 - Optimization and Calculus
+                        </a>
+                        <a href="https://youtu.be/B3w5Zzuqi-E" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            3.2 - Gradient Descent
+                        </a>
+                        <a href="https://youtu.be/WIbgH6Nc-ac" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            3.3 - Ordinary Least Squares
+                        </a>
+                        <a href="https://youtu.be/aJzZmo9-cFk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            3.4 - Non-Linear Least Squares
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture3-linear-regression.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 3 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture3-linear-regression slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 3 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture3-linear-regression.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 3 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture3-linear-regression.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 3 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture3-linear-regression.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 3 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 3.1-3.2, Chapter 5.1-5.2.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 4: Foundations of Supervised Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Data distribution</span> 
+        <span class="tag is-success is-light">Hypothesis classes</span> 
+        <span class="tag is-success is-light">Bayes optimality</span> 
+        <span class="tag is-success is-light">Over/under fitting</span>
+        <span class="tag is-success is-light">Regularization</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/eu2NKLVCJNA" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            4.1 - The Data Distribution
+                        </a>
+                        <a href="https://youtu.be/kFaoSM-wn4k" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            4.2 - Why Does Supervised Learning Work?
+                        </a>
+                        <a href="https://youtu.be/x-OxfOHPLsc" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            4.3 - Overfitting and Underfitting
+                        </a>
+                        <a href="https://youtu.be/4u-jNLu1sBI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            4.4 - Regularization
+                        </a>
+                        <a href="https://youtu.be/cVFZL-cbDe4" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            4.5 - L1 Regularization and Sparsity
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture4-foundations-supervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 4 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture4-foundations-supervised-learning slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 4 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture4-foundations-supervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 4 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture4-foundations-supervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 4 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture4-foundations-supervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 4 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 2.6-2.9, Chapter 18.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 5: Maximum Likelihood Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Maximum likelihood learning</span> 
+        <span class="tag is-success is-light">Bayesian ML</span> 
+        <span class="tag is-success is-light">MAP Learning</span> 
+        <span class="tag is-success is-light">Example Algorithms</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/kgVghxCDsgk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5A.1 - Probabilistic Modeling
+                        </a>
+                        <a href="https://youtu.be/FeErOrjycBs" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5A.2 - Monte Carlo Estimation
+                        </a>
+                        <a href="https://youtu.be/uLPZ3myyHLc" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5A.3 - Maximum Likelihood Learning
+                        </a>
+                        <a href="https://youtu.be/56VPecSHlqk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5A.4 - Extensions of Maximum Likelihood
+                        </a>
+                        <a href="https://youtu.be/hiDbS5HTlgc" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5B.1 - Probabilistic Linear Regression
+                        </a>
+                        <a href="https://youtu.be/-s6u0qeCNrM" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            5B.2 - Bayesian Algorithms
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture5-maximum-likelihood.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 5A Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture5b-probabilistic-perspectives.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 5B Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture5-maximum-likelihood slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 5A Slides - PDF 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture5b-probabilistic-perspectives slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 5B Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture5-maximum-likelihood.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5A Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture5b-probabilistic-perspectives.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5B Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture5-maximum-likelihood.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5A iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture5b-probabilistic-perspectives.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5B iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture5-maximum-likelihood.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5A LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture5b-probabilistic-perspectives.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 5B LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 2.4-2.6, Chapter 8.1-8.3.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 6: Classification Algorithms.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">KNN</span> 
+        <span class="tag is-success is-light">Logistic Regression</span>
+        <span class="tag is-success is-light">Softmax Regression</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/1erZ-FtB0J4" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            6.1 - Classification
+                        </a>
+                        <a href="https://youtu.be/L7o-nFW7GFY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            6.2 - Nearest Neighbors
+                        </a>
+                        <a href="https://youtu.be/yHu-BTXM82w" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            6.3 - Non-Parametric Models
+                        </a>
+                        <a href="https://youtu.be/nUdiu96sWmE" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            6.4 - Logistic Regression
+                        </a>
+                        <a href="https://youtu.be/nn15Lhb9Uyw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            6.5 - Softmax Regression
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture6-classification.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 6 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture6-classification.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 6 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture6-classification.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 6 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture6-classification.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 6 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture6-classification.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 6 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 4.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 7: Generative Algorithms.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Generative models</span> 
+        <span class="tag is-success is-light">Gaussian Discriminant Analysis</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/Tfocb5ZPrJI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            7.1 - Generative Models
+                        </a>
+                        <a href="https://youtu.be/LG5IQHD8b6w" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            7.2 - Gaussian Discriminant Analysis
+                        </a>
+                        <a href="https://youtu.be/A2YHhvPLGrg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            7.3 - Gaussian Discriminant Analysis (Learning)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture7-generative-models.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 7 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture7-generative-models slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 7 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture7-generative-models.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 7 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture7-generative-models.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 7 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture7-generative-models.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 7 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 6.6.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 8: Naive Bayes.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Naive Bayes</span> 
+        <span class="tag is-success is-light">Bag of Words</span>
+        <span class="tag is-success is-light">Generative vs. Discriminative Methods</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/y4_g_Ni3bGw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            8.1 - Text Classification
+                        </a>
+                        <a href="https://youtu.be/p1yvm_enevw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            8.2 - Naive Bayes
+                        </a>
+                        <a href="https://youtu.be/JGvT7QCdipQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            8.3 - Naive Bayes (Learning)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture8-naive-bayes.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 8 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture8-naive-bayes slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 8 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture8-naive-bayes.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 8 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture8-naive-bayes.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 8 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture8-naive-bayes.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 8 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 6.6.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 9: Support Vector Machines.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">SVM</span> 
+        <span class="tag is-success is-light">Margins</span>
+        <span class="tag is-success is-light">Max-margin Classifiers</span>
+        <span class="tag is-success is-light">Hinge Loss</span>
+        <span class="tag is-success is-light">Sub-gradient Descent</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/eeDB1BP17Qw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            9.1 - Classification Margins
+                        </a>
+                        <a href="https://youtu.be/QATK9sjETzY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            9.2 - The Max-Margin Classifier
+                        </a>
+                        <a href="https://youtu.be/kgTKHq9G2lQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            9.3 - Soft Margins and the Hinge Loss
+                        </a>
+                        <a href="https://youtu.be/lqkZq7qqXL8" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            9.4 - Optimization for SVMs
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture9-support-vector-machines.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 9 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture9-support-vector-machines slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 9 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture9-support-vector-machines.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 9 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture9-support-vector-machines.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 9 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture9-support-vector-machines.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 9 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 12.1-12.3.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 10: Dual Formulation of Support Vector Machines.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Lagrange Duality</span> 
+        <span class="tag is-success is-light">Dual Formulation of SVM</span>
+        <span class="tag is-success is-light">SMO algorithm</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/EOMy6rahdJc" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            10.1 - Lagrange Duality
+                        </a>
+                        <a href="https://youtu.be/w1DpuuQqt1U" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            10.2 - Dual Formulation of SVMs
+                        </a>
+                        <a href="https://youtu.be/6LeGsxA-Aco" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            10.3 - More on SVM Duals
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture10-svm-dual.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 10 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture10-svm-dual slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 10 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture10-svm-dual.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 10 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture10-svm-dual.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 10 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture10-svm-dual.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 10 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 12.1-12.3.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 11: Kernels.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Kernels</span> 
+        <span class="tag is-success is-light">Mercer's Theorem</span>
+        <span class="tag is-success is-light">RBF Kernels</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/Cjvg7nhb2dk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            11.1 - The Kernel Trick (Intuition)
+                        </a>
+                        <a href="https://youtu.be/41a6ayyWOWM" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            11.2 - The Kernel Trick (Example)
+                        </a>
+                        <a href="https://youtu.be/16nF6g7C4q8" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            11.3 - The Kernel Trick in SVMs
+                        </a>
+                        <a href="https://youtu.be/Z7wzZa4EUEs" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            11.4 - Types of Kernels
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture11-kernels.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 11 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture11-kernels slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 11 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture11-kernels.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 11 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture11-kernels.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 11 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture11-kernels.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 11 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 6.1-6.7, Chapter 12.3.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 12: Decision Trees.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Bagging</span> 
+        <span class="tag is-success is-light">Ensembling</span>
+        <span class="tag is-success is-light">CART</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/mWcTTvK73PU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            12.1 - Decision Trees
+                        </a>
+                        <a href="https://youtu.be/0mlxJAv_QqI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            12.2 - Learning Decision Trees
+                        </a>
+                        <a href="https://youtu.be/kw6xL9gcsJQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            12.3 - Bagging
+                        </a>
+                        <a href="https://youtu.be/YPMVtnW17DY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            12.4 - Random Forests
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture12-decision-trees.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 12 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture12-decision-trees slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 12 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture12-decision-trees.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 12 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture12-decision-trees.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 12 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture12-decision-trees.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 12 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 8.7, Chapter 9.1-9.2.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 13: Boosting.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Adaboost</span> 
+        <span class="tag is-success is-light">Gradient Boosting</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/EvZocbJAqzk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            13.1 - Boosting and Ensembling
+                        </a>
+                        <a href="https://youtu.be/vu9WxUdQv8k" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            13.2 - Additive Models
+                        </a>
+                        <a href="https://youtu.be/R7C0D1NpokI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            13.3 - Gradient Boosting
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture13-boosting.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 13 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture13-boosting slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 13 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture13-boosting.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 13 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture13-boosting.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 13 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture13-boosting.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 13 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 10.1-10.10.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 14: Neural Networks.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">NN</span> 
+        <span class="tag is-success is-light">Perceptrons</span>
+        <span class="tag is-success is-light">Multi-layer Neural Networks</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/0eczcaccSyg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            14.1 - An Artificial Neuron
+                        </a>
+                        <a href="https://youtu.be/SK50LIBcNYY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            14.2 - Artificial Neural Networks
+                        </a>
+                        <a href="https://youtu.be/ieJR6D1WTCg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            14.3 - Backpropagation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture14b-neural-networks.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 14 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture14b-neural-networks slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 14 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture14b-neural-networks.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 14 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture14b-neural-networks.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 14 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture14b-neural-networks.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 14 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 11.1-11.5.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 15: Deep Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">DL</span> 
+        <span class="tag is-success is-light">Convolutional neural networks</span>
+        <span class="tag is-success is-light">Applications</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/YOrgAj-Gpgo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            15.1 - What is Deep Learning?
+                        </a>
+                        <a href="https://youtu.be/JxXSPc0SkO0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            15.2 - Convolutions
+                        </a>
+                        <a href="https://youtu.be/-3ClaLCv6AU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            15.3 - Convolutional Neural Networks
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture15-deep-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 15 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture15-deep-learning slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 15 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture15-deep-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 15 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture15-deep-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 15 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture15-deep-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 15 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        N/A
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 16: Unsupervised Learning.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Unsupervised Learning</span> 
+        <span class="tag is-success is-light">Introduction</span>
+        <span class="tag is-success is-light">Language</span>
+        <span class="tag is-success is-light">Practice</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/jl1_YiOA3xQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.1 - Introduction to Unsupervised Learning
+                        </a>
+                        <a href="https://youtu.be/Al02l6rx30g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.2 - The Language of Unsupervised Learning
+                        </a>
+                        <a href="https://youtu.be/3IW_Yz5IpY0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            16.3 - Unsupervised Learning in Practice
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture16-unsupervised-learning.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 16 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture16-unsupervised-learning slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 16 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture16-unsupervised-learning.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 16 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture16-unsupervised-learning.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 16 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture16-unsupervised-learning.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 16 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 17: Density Estimation.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Density Estimation</span> 
+        <span class="tag is-success is-light">Probabilistic Models</span>
+        <span class="tag is-success is-light">K-Nearest Neighbors</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/m__VGIDQU1E" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.1 - Unsupervised Probabilistic Models
+                        </a>
+                        <a href="https://youtu.be/YilvCJfb088" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.2 - Kernel Density Estimation
+                        </a>
+                        <a href="https://youtu.be/t_qyXykhbfg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            17.3 - Latent Variable Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture17-density-estimation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 17 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture17-density-estimation slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 17 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture17-density-estimation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 17 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture17-density-estimation.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 17 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture17-density-estimation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 17 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 18: Clustering.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Clustering</span> 
+        <span class="tag is-success is-light">K-means</span>
+        <span class="tag is-success is-light">Expectation-Maximization</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/yTVihG6vhiE" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.1 - Gaussian Mixture Models
+                        </a>
+                        <a href="https://youtu.be/wG-TZN2TwzQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.2 - Expectation Maximization
+                        </a>
+                        <a href="https://youtu.be/ekjvXQZtzqU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.3 - Expectation Maximization in Gaussian Mixture Models
+                        </a>
+                        <a href="https://youtu.be/kpNf7eVNeQo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            18.4 - Generalization in Probabilistic Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture18-clustering.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 18 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture18-clustering slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 18 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture18-clustering.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 18 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture18-clustering.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 18 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture18-clustering.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 18 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 19: Dimensionality Reduction.</h2>
+    <p>Note: Lecture video 19 part 2 was incorrectly titled as part 3 on Youtube.</p>
+    <div class="tags">
+        <span class="tag is-success is-light">Dimensionality Reduction</span> 
+        <span class="tag is-success is-light">PCA</span>
+        <span class="tag is-success is-light">ICA</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/zhix3AQnoL0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            19.1 - What is Dimensionality Reduction?
+                        </a>
+                        <a href="https://youtu.be/VFWmLKWUahY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            19.2 - Principal Component Analysis
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture19-dimensionality-reduction.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 19 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture19-dimensionality-reduction slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 19 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture19-dimensionality-reduction.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 19 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture19-dimensionality-reduction.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 19 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture19-dimensionality-reduction.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 19 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 14.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 20: Evaluating Machine Learning Models.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Evaluation</span> 
+        <span class="tag is-success is-light">Dataset Splits</span>
+        <span class="tag is-success is-light">Cross-Validation</span>
+        <span class="tag is-success is-light">Performance Measures</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/xAo77BqF_nI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.1 - Machine Learning Development Workflow
+                        </a>
+                        <a href="https://youtu.be/CTQm8T6PZKg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.2 - Evaluating Classification Models
+                        </a>
+                        <a href="https://youtu.be/VXk5XZ-iz2g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.3 - Advanced Classification Metrics
+                        </a>
+                        <a href="https://youtu.be/l6RPx83Yn5M" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            20.4 - Evaluating Regression Models
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture20-evaluation.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 20 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture20-evaluation slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 20 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture20-evaluation.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 20 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture20-evaluation.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 20 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture20-evaluation.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 20 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 7.10.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 21: Model Iteration and Improvement.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Diagnosis</span> 
+        <span class="tag is-success is-light">Model Iteration Process</span>
+        <span class="tag is-success is-light">Bias/Variance Tradeoff</span>
+        <span class="tag is-success is-light">Baselines</span>
+        <span class="tag is-success is-light">Learning Curves</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/kPtotLrFCVw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.1 - Error Analysis
+                        </a>
+                        <a href="https://youtu.be/drPhFy6U0Lk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.2 - Bias / Variance Analysis
+                        </a>
+                        <a href="https://youtu.be/-QKMmFX-g1g" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            21.3 - Baselines
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture21-model-iteration.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 21 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture21-model-iteration slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 21 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture21-model-iteration.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 21 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture21-model-iteration.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 21 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture21-model-iteration.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 21 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://hastie.su.domains/ElemStatLearn/printings/ESLII_print12_toc.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        ESL - Chapter 2.9, Chapter 7.1-7.5.
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 22: Tools for Diagnosing Model Performance.</h2>
+    <div class="tags">
+        <span class="tag is-success is-light">Diagnosis</span> 
+        <span class="tag is-success is-light">Error Analysis</span>
+        <span class="tag is-success is-light">Data Integrity</span>
+        <span class="tag is-success is-light">Human-Level Performance</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/lYAV5KNk_TY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.1 - Learning Curves
+                        </a>
+                        <a href="https://youtu.be/StNrJnL8eX0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.2 - Loss Curves
+                        </a>
+                        <a href="https://youtu.be/wCBuc6Qc_wI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.3 - Validation Curves
+                        </a>
+                        <a href="https://youtu.be/6EUK-9lmHfo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            22.4 - Distribution Mismatch
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture22-evaluation-tools.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 22 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture22-evaluation-tools slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 22 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture22-evaluation-tools.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 22 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture22-evaluation-tools.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 22 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture22-evaluation-tools.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 22 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        N/A
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr />
+
+<div class="container">
+    <h2>Lecture 23: Overview.</h2>
+    <p>Note: Videos for lecture 23 is missing on Youtube.</p>
+    <div class="tags">
+        <span class="tag is-success is-light">Bias/variance Tradeoff</span> 
+        <span class="tag is-success is-light">Empirical risk minimization</span>
+        <span class="tag is-success is-light">Learning theory</span>
+    </div>
+    <div class="columns">
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-primary is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Videos</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                        <a href="https://youtu.be/YOrgAj-Gpgo" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.1 - MISSING
+                        </a>
+                        <a href="https://youtu.be/JxXSPc0SkO0" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.2 - MISSING
+                        </a>
+                        <a href="https://youtu.be/-3ClaLCv6AU" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            23.3 - MISSING
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-warning is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Slides</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_html/lecture23-overview.slides.html" target="_blank" rel="noopener noreferrer" class="dropdown-item">
+                        Lecture 23 Slides - Live 
+                      </a>
+                      <a href="https://kuleshov-group.github.io/aml-resources/slides_pdf/lecture23-overview slides.pdf" target="_blank" rel="noopener noreferrer" class="dropdown-item" download="">
+                        Lecture 23 Slides - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-link is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Notebook</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_html/lecture23-overview.html" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 23 Notebook - HTML 
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_ipynb/lecture23-overview.ipynb" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 23 iPython Notebook  
+                      </a>
+                    </div>
+                    <div class="dropdown-content">
+                      <a href="https://kuleshov-group.github.io/aml-resources/notes_pdf/lecture23-overview.pdf" class="dropdown-item" target="_blank" rel="noopener noreferrer" download="">
+                        Lecture 23 LaTeX Notes - PDF 
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="dropdown">
+                <div class="dropdown-trigger">
+                    <button class="button is-info is-light" aria-haspopup="true" aria-controls="dropdown-menu">
+                      <span>Additional Materials</span>
+                      <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                      </span>
+                    </button>
+                </div>
+                <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                    <div class="dropdown-content">
+                      <a href="#" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                        N/A
+                      </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Script for making dropdown functional.
+// Reference: https://stackoverflow.com/a/58405701
+// Get all dropdowns on the page that aren't hoverable.
+const dropdowns = document.querySelectorAll('.dropdown:not(.is-hoverable)');
+
+if (dropdowns.length > 0) {
+  // For each dropdown, add event handler to open on click.
+  dropdowns.forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.stopPropagation();
+      el.classList.toggle('is-active');
+    });
+  });
+
+  // If user clicks outside dropdown, close it.
+  document.addEventListener('click', function(e) {
+    closeDropdowns();
+  });
+}
+
+/*
+ * Close dropdowns by removing `is-active` class.
+ */
+function closeDropdowns() {
+  dropdowns.forEach(function(el) {
+    el.classList.remove('is-active');
+  });
+}
+
+// Close dropdowns if ESC pressed
+document.addEventListener('keydown', function (event) {
+  let e = event || window.event;
+  if (e.key === 'Esc' || e.key === 'Escape') {
+    closeDropdowns();
+  }
+});
+</script>
+
+
+</div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+
+        
+        <div class="columns is-multiline is-vcentered">
+            <div class="column is-2">
+                <figure class="image">
+                    <a href="https://www.tech.cornell.edu"><img src="https://aml.hongjunwu.com/img/cornell_brand_registered.svg"></a>
+                </figure>
+            </div>
+
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.tech.cornell.edu" class="link" style="text-align: center;">Cornell Tech</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.cs.cornell.edu" class="link" style="text-align: center;">Cornell CIS</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/credits/" class="link" style="text-align: center;">Credits</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">© 2022 Cornell University. All right reserved.</p>
+            <p class="">If you have a disability and are having trouble accessing information on this website, contact <a href="mailto:web-accessibility@cornell.edu">web-accessibility@cornell.edu</a> for assistance.</p>
+        </div>
+
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

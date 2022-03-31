@@ -1,0 +1,30 @@
+- title: Instructors
+  images:
+    - link: https://via.placeholder.com/400x300
+      large_link: https://via.placeholder.com/1200x675
+      alt: Volodymyr Kuleshov Image
+      description: |-
+        ### Volodymyr Kuleshov
+
+        The *image* **description** can be longer and written in markdown too.
+
+      ratio: is-4by3
+    - link: https://via.placeholder.com/400x300
+      large_link: https://via.placeholder.com/1200x900
+      alt: Serge Belongie Image
+      description: |-
+        ### Serge Belongie
+
+        The *image* **description** can be longer and written in markdown too.
+
+      ratio: is-4by3
+    - link: https://via.placeholder.com/400x300
+      large_link: https://via.placeholder.com/1200x900
+      alt: Nathan Kallus Image
+      description: |-
+        ### Nathan Kallus
+
+        The *image* **description** can be longer and written in markdown too.
+
+      ratio: is-4by3
+

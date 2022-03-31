@@ -1,0 +1,27 @@
+style: is-light
+height: is-medium
+items:
+  - title: About
+    subtitle: What is this course?
+    icon: fa-laugh-wink
+    description: >
+      Learn and apply key concepts of modeling, analysis and validation from machine learning, data mining and signal processing to analyze and extract meaning from data.
+
+    call_to_action_name: Learn More
+    call_to_action_link: /page-1/
+  - title: Prerequisites
+    subtitle: Who is this course for?
+    icon: fa-user-graduate
+    description: >
+      Discrete Structures, Linear Algebra, Probability, and experience programming with Python.
+
+    call_to_action_name: Learn More
+    call_to_action_link: /page-2/
+  - title: Affiliates
+    subtitle: Who are we?
+    icon: fa-university
+    description: >
+      This is a graduate level computer science course offered by Cornell Tech in New York City.
+
+    call_to_action_name: Learn More
+    call_to_action_link: /page-3/
