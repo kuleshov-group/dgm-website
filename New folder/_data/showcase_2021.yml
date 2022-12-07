@@ -1,0 +1,19 @@
+intro: |-
+  Students who took the course in 2021 produced fantastic projects! We are delighted to showcase them here.
+items:
+  - title: A Survey of Toxic Comment Classification Methods
+    subtitle: Kehan Wang, Jiaxi Yang, Hongjun Wu
+    description: |-
+      While in real life everyone behaves themselves at least to some extent, it is much more difficult to expect people to behave themselves on the internet, because there are few checks or consequences for posting something toxic to others.
+      Yet, for people on the other side, toxic texts often lead to serious psychological consequences.
+      Detecting such toxic texts is challenging.
+
+      In this paper, we attempt to build a toxicity detector using machine learning methods including CNN, Naive Bayes model, as well as LSTM. While there has been numerous groundwork laid by others, we aim to build models that provide higher accuracy than the predecessors.
+
+      We produced very high accuracy models using LSTM and CNN, and compared them to the go-to solutions in language processing, the Naive Bayes model.
+      A word embedding approach is also applied to empower the accuracy of our models.
+    image: https://storage.googleapis.com/kaggle-competitions/kaggle/8076/logos/header.png?t=2017-12-15-21-30-35
+    image_ratio: is-4by1
+    link: https://arxiv.org/abs/2112.06412
+    link_text: arXiv
+    tags: NLP, Classification, Naive Bayes, LSTM

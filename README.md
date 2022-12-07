@@ -1,4 +1,4 @@
-# DGM Website
+# AML Website
 ## Jekyll Commands
 
 To install the dependencies, navigate to the theme directory and run `bundle install`.

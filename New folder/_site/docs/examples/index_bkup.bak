@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+
+
+
+<html
+ lang="en"
+ >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content=#b31b1b>
+    <link rel="stylesheet" href="/assets/css/app.css">
+<!--    <link rel="stylesheet" href="/assets/css/app.css">-->
+<!--    <link rel="shortcut icon" type="image/png"-->
+<!--           href="/favicon.png" -->
+<!--    />-->
+    <link rel="shortcut icon" type="image/ico" href="https://errrneist.github.io/img/aml/favicon.ico"/>
+<!--           href="./img/favicon.ico" -->
+
+
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.0/dist/alpine.min.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Deep Probabilistic and Generative Models | Deep Generated Models</title>
+<meta name="generator" content="Jekyll v3.9.1" />
+<meta property="og:title" content="Deep Probabilistic and Generative Models" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="The site for Cornell Tech’s Deep Generated Models." />
+<meta property="og:description" content="The site for Cornell Tech’s Deep Generated Models." />
+<link rel="canonical" href="/examples/index_bkup.bak" />
+<meta property="og:url" content="/examples/index_bkup.bak" />
+<meta property="og:site_name" content="Deep Generated Models" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Deep Probabilistic and Generative Models" />
+<script type="application/ld+json">
+{"url":"/examples/index_bkup.bak","headline":"Deep Probabilistic and Generative Models","@type":"WebPage","description":"The site for Cornell Tech’s Deep Generated Models.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts --></head>
+
+  <body>
+    <nav class="navbar is-primary " x-data="{ openNav: false }">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Deep Generated Models
+            </a>
+<!--            <figure class="image">-->
+<!--                <a href="https://www.tech.cornell.edu"><img src="./img/cornell_logo.svg"></a>-->
+<!--            </figure>-->
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu" :class="{ 'is-active': openNav }" x-on:click="openNav = !openNav">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+            <div class="navbar-start">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Student Projects</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="/showcase/showcase_2021/" class="navbar-item ">2021</a>
+                            
+                            <a href="/showcase/showcase_2020/" class="navbar-item ">2020</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                    
+                    <div class="navbar-item has-dropdown is-hoverable ">
+                        <a href="/" class="navbar-link ">Past Offerings</a>
+                        <div class="navbar-dropdown">
+                            
+                            <a href="https://github.com/kuleshov/cornell-cs5785-2021-applied-ml" class="navbar-item ">2021 (Kuleshov)</a>
+                            
+                            <a href="https://github.com/kuleshov/cornell-cs5785-2020-applied-ml" class="navbar-item ">2020 (Kuleshov)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2019/" class="navbar-item ">2019 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2018/index.html" class="navbar-item ">2018 (Belongie)</a>
+                            
+                            <a href="https://cornelltech.github.io/cs5785-fall-2017/index.html" class="navbar-item ">2017 (Belongie)</a>
+                            
+                        </div>
+                    </div>
+                    
+                
+                
+            </div>
+
+            <div class="navbar-end">
+                
+            </div>
+
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-large  is-bold is-primary"  style="background: url('https://aml.hongjunwu.com/img/hero_image_tinted.png') no-repeat center center; background-size: cover;" >
+    <!--
+        <section class="hero  is-large  is-bold is-primary" >
+    -->
+    <div class="hero-body ">
+        <div class="container">
+            <div class = "columns">
+                <div class="column is-one-quarter">
+                    <figure class="image">
+                        <a href="https://www.tech.cornell.edu"><img src="https://aml.hongjunwu.com/img/cornell-tech-logo-optimized.png"></a>
+                    </figure>
+                </div>
+                <div class="column is-1">
+                    <h1 class="title is-2"> </h1>
+                </div>
+                <div class="column">
+                    <h1 class="title is-2">Deep Probabilistic and Generative Models</h1>
+                    <p class="subtitle is-3">An advanced topic in machine learning.</p>
+                </div>
+                
+                    <a href="/page-1/" class="button is-info is-large">Example Call To Action</a>
+                
+            </div>
+        </div>
+    </div>
+</section>
+    
+    
+    
+    <section class="hero  is-medium  is-light">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-multiline is-centered">
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fas fa-copy fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">Multiple page layouts</p>
+                            <p class="subtitle is-5">Including sidebar, menubar, tabs and callouts</p>
+                            
+                            
+
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fas fa-mail-bulk fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">Blog included</p>
+                            <p class="subtitle is-5">Layouts for blog and post pages included</p>
+                            
+                            
+
+                            
+                        </div>
+                    
+                        <div class="column is-4 has-text-centered">
+                            
+                            <div class="icon callout-icon">
+                            
+                                <i class="fab fa-github fa-4x"></i>
+                            
+                            </div>
+                            
+                            <p class="title is-5">Works with GitHub Pages</p>
+                            <p class="subtitle is-5">Quick and easy to get started</p>
+                            
+                            
+
+                            
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="section">
+        <div class="container">
+            <div class="columns is-multiline">
+                
+                <div class="column is-8">
+                    
+                    
+                    
+                    
+                    
+<div class="content">
+    # Bulma Clean Theme demo website
+
+This website showcases the options for the Bulma Clean theme. The theme is available as a ruby gem or can be used with GitHub pages. 
+
+[![Gem Version](https://badge.fury.io/rb/bulma-clean-theme.svg)](https://badge.fury.io/rb/bulma-clean-theme)
+![Gem](https://img.shields.io/gem/dt/bulma-clean-theme.svg)
+
+## Ruby Gem
+
+The ruby gem is available on the Ruby Gems website at the following location. [https://rubygems.org/gems/bulma-clean-theme](https://rubygems.org/gems/bulma-clean-theme).
+
+## GitHub Pages
+
+The theme can be used with GitHub Pages by setting the `remote_theme` in your Jekyll sites `_config.yml`
+
+```yml
+remote_theme: chrisrhymes/bulma-clean-theme
+```
+
+## Instructions
+
+For full instructions, please see the Readme at the GitHub repo:
+[https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md](https://github.com/chrisrhymes/bulma-clean-theme/blob/master/README.md)
+
+## Page Layouts
+
+This demo site showcases the available page layout options.
+
+* Page With Sidebar
+* Page Without Sidebar
+* Page With Menubar
+* Page With Tabs
+* Page Without Footer
+* Page Without Hero
+* Page With Contents
+* Landing Page With Callouts
+* Sponsors Page
+* Image Gallery
+* Recipe Page
+* Blog
+* Post
+
+## Supported By JetBrains
+
+JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
+
+[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
+
+</div>
+                </div>
+                
+                <div class="column is-4-desktop is-4-tablet">
+                    <p class="title is-4">Latest Posts</p>
+
+<div class="columns is-multiline">
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="/bulma-clean-theme/img/blog-post-series.jpg" alt="Creating a post series">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/2021/10/30/creating-a-post-series/">Creating a post series</a>
+            
+            
+                <p><p>From version 0.12, you can now make a post a part of a series of posts, linking to the other posts in the series, by creating a <code class="language-plaintext highlighter-rouge">series</code> data file and then setting the series in each of the post’s front matter.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2021/10/30/creating-a-post-series/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Oct 30, 2021</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/example-docs-page.jpg" alt="Creating a docs site with Bulma Clean Theme">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/">Creating a docs site with Bulma Clean Theme</a>
+            
+            
+                <p><p>I created Bulma Clean Theme as a theme for my own website and decided to open source it so others could use it as well. One of the key things I wanted to do was to create a theme that worked with GitHub Pages, which also means that you can also use it as a docs site for your project.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: May 8, 2020</p>
+    </footer>
+</div>
+    </div>
+    
+    <div class="column is-12">
+        <div class="card">
+    
+    <div class="card-image">
+        <img src="https://www.csrhymes.com/img/landing-page.jpg" alt="Introducing some new layouts to Bulma Clean Theme">
+    </div>
+    
+    <div class="card-content">
+        <div class="content">
+            
+            <a class="title is-4" href="/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/">Introducing some new layouts to Bulma Clean Theme</a>
+            
+            
+                <p><p>I’ve been meaning to write about some of the new features I have been rolling out to my Jekyll theme, <a href="https://www.csrhymes.com/bulma-clean-theme/">Bulma Clean Theme</a>, for a while but I have only just managed to push the update for the landing page layout last weekend. This article provides some of the thinking behind the updates, as well as a brief introduction to how to get started.</p>
+
+</p>
+            
+        </div>
+        <div class="has-text-centered">
+            <a href="/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/" class="button is-primary">Read more</a>
+        </div>
+    </div>
+    <footer class="card-footer">
+        <p class="card-footer-item">Published: Jul 23, 2019</p>
+    </footer>
+</div>
+    </div>
+    
+</div>
+
+
+
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+    <div class="container">
+
+        
+        <div class="columns is-multiline is-vcentered">
+            <div class="column is-2">
+                <figure class="image">
+                    <a href="https://www.tech.cornell.edu"><img src="https://aml.hongjunwu.com/img/cornell_brand_registered.svg"></a>
+                </figure>
+            </div>
+
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.tech.cornell.edu" class="link" style="text-align: center;">Cornell Tech</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="https://www.cs.cornell.edu" class="link" style="text-align: center;">Cornell CIS</a>
+                </div>
+            </div>
+            
+            <div class="column has-text-centered">
+                <div>
+                    <a href="/credits/" class="link" style="text-align: center;">Credits</a>
+                </div>
+            </div>
+            
+        </div>
+        
+
+
+        <div class="content is-small has-text-centered">
+            <p class="">© 2022 Cornell University. All right reserved.</p>
+            <p class="">If you have a disability and are having trouble accessing information on this website, contact <a href="mailto:web-accessibility@cornell.edu">web-accessibility@cornell.edu</a> for assistance.</p>
+        </div>
+
+    </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts --></body>
+</html>

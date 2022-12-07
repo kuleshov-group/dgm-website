@@ -1,0 +1,47 @@
+- tier_name: Instructors
+  size: large
+#  description: |-
+#    This is the description for the Instructors (Probably don't need it but implemented it anyway)
+  sponsors:
+    - name: Volodymyr Kuleshov
+      title: Assistant Professor
+#      profile: https://www.cs.cornell.edu/~kuleshov/
+      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://www.cs.cornell.edu/~kuleshov/">Volodymyr Kuleshov</a></strong> focuses on machine learning and its applications in scientific discovery, health, and sustainability. He is also the co-founder of Afresh, a startup that uses AI to significantly driving down food waste.
+    - name: Nathan Kallus
+      title: Assistant Professor
+#      profile: https://tech.cornell.edu/people/nathan-kallus/
+      img: img/nathan_kallus.jpg
+      description: <strong><a href="https://tech.cornell.edu/people/nathan-kallus/">Nathan Kallus</a></strong>' research interests include personalization; optimization, especially under uncertainty; causal inference; sequential decision making; credible and robust inference; and algorithmic fairness.
+    - name: Serge Belongie
+      title: Associate Dean
+#      profile: https://sergebelongie.github.io
+      img: img/serge_belongie.jpg
+      description: <strong><a href="https://sergebelongie.github.io">Serge Belongie</a></strong> specializes in computer vision, machine learning, augmented reality, and human-in-the-loop computing. He is now the head of the Pioneer Centre for Artificial Intelligence at the University of Copenhagen.
+- tier_name: Contributors
+  size: medium
+#  description: |-
+#    This is the description for the Course Staff
+  sponsors:
+    - name: Hongjun Wu
+      title: Producer
+#      profile: https://github.com/
+#      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://hongjunwu.com/">Hongjun Wu</a></strong> works on applied machine learning in technical art and game development.
+    - name: Serge Belongie
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://github.com/">Serge Belongie</a></strong> specializes in computer vision, machine learning, augmented reality, and human-in-the-loop computing.
+    - name: Serge Belongie
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://github.com/">Serge Belongie</a></strong> specializes in computer vision, machine learning, augmented reality, and human-in-the-loop computing.
+    - name: Serge Belongie
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://github.com/">Serge Belongie</a></strong> specializes in computer vision, machine learning, augmented reality, and human-in-the-loop computing.
+
+

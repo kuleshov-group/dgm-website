@@ -1,14 +1,21 @@
 {% if page.sponsors %}
 {% assign tiers=site.data.[page.sponsors] %}
+
+    <!--I have to include about here (not the best idea) because if doing it separately,
+    this page shows before the about page which defeats the purpose.-->
+    {% include about.html %}
+
     <div class="columns is-multiline">
         {% for tier in tiers %}
         <div class="column is-12">
             <p class="title is-3 has-text-centered">
                 <span>{{ tier.tier_name }}</span>
             </p>
+            {% if tier.icon %}
             <p class="subtitle has-text-centered">
-                <span class="icon is-large gh-sponsor"><i class="fas fa-heart fa-2x"></i></span>
+                <span class="icon is-large gh-sponsor"><i class="{{ tier.icon }}"></i></span>
             </p>
+            {% endif %}
             <div class="columns is-centered">
                 <div class="column is-6 content has-text-centered">
                     <p>{{ tier.description | markdownify }}</p>
@@ -22,7 +29,17 @@
                         <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                             {{ sponsor.name }}
                         </p>
+                        <p class="{% if tier.size == 'large' %} is-5 {% elsif tier.size == 'small' %} is-7 {% else %} is-6 {% endif %}">
+                            {{ sponsor.title }}
+                        </p>
                         <p class="subtitle is-6">
+                            {% if sponsor.img %}
+                            <figure class="{% if tier.size == 'large' %} image is-128x128 {% elsif tier.size == 'small' %} image is-32x32 {% else %} image is-64x64 {% endif %}" style="display:block; margin: auto;"><img style="border-radius: 50%;" src="{{ sponsor.img }}"></figure>
+                            <br>
+                            {% endif %}
+                            {% if sponsor.description %}
+                            <p>{{ sponsor.description }}</p>
+                            {% endif %}
                             {% if sponsor.profile %}
                             <a href="{{ sponsor.profile }}" class="is-link is-small">View Profile</a>
                             {% else %}
@@ -34,8 +51,9 @@
                 {% endfor %}
             </div>
         </div>
+<!--        This is just a breakline but I don't think it is that necessary-->
         <div class="column is-12">
-            <hr />
+<!--            <hr />-->
         </div>
         {% endfor %}
     </div>

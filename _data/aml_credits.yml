@@ -1,0 +1,63 @@
+# To put in the credits page
+- tier_name: Instructors
+  size: medium
+  #  description: |-
+  #    This is the description for the Instructors (Probably don't need it but implemented it anyway)
+  sponsors:
+    - name: Volodymyr Kuleshov
+      title: Assistant Professor
+      #      profile: https://www.cs.cornell.edu/~kuleshov/
+      img: ../img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://www.cs.cornell.edu/~kuleshov/">Volodymyr Kuleshov</a></strong> focuses on machine learning and its applications in scientific discovery, health, and sustainability. He is also the co-founder of Afresh, a startup that uses AI to significantly driving down food waste.
+    - name: Nathan Kallus
+      title: Assistant Professor
+      #      profile: https://tech.cornell.edu/people/nathan-kallus/
+      img: ../img/nathan_kallus.jpg
+      description: <strong><a href="https://tech.cornell.edu/people/nathan-kallus/">Nathan Kallus</a></strong>' research interests include personalization; optimization, especially under uncertainty; causal inference; sequential decision making; credible and robust inference; and algorithmic fairness.
+    - name: Serge Belongie
+      title: Professor
+      #      profile: https://sergebelongie.github.io
+      img: ../img/serge_belongie.jpg
+      description: <strong><a href="https://sergebelongie.github.io">Serge Belongie</a></strong> specializes in computer vision, machine learning, augmented reality, and human-in-the-loop computing. He is now the head of the Pioneer Centre for Artificial Intelligence at the University of Copenhagen.
+    - name: Hongjun Wu
+      title: Producer
+      #      profile: https://hongjunwu.com
+      img: ../img/hongjun_wu.jpg
+      description: <strong><a href="https://hongjunwu.com">Hongjun Wu</a></strong> is interested in applying machine learning techniques to optimize 3D animation and video game. He is working on automated procedural mesh and shader generation with artificial intelligence.
+- tier_name: Contributors
+  size: medium
+#  description: |-
+#    This is the description for the Course Staff
+  sponsors:
+    - name: Yair Schiff
+      title: Teaching Assistant
+#      profile: https://github.com/
+#      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://yair-schiff.github.io">Yair Schiff</a></strong>'s interests include Generative modeling, Optimal transport, and AI for discovery & social good.
+    - name: Noriyuki Kojima
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://kojimano.github.io">Noriyuki Kojima</a></strong> is interested in natural language processing, computer vision, and machine learning.
+    - name: Top Piriyakulkij
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://github.com/topwasu">Top Piriyakulkij</a></strong> is a PhD student at Cornell University.
+    - name: Guandao Yang
+      title: Teaching Assistant
+        #      profile: https://github.com/
+        #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://www.guandaoyang.com">Guandao Yang</a></strong>'s research focuses on geometry processing with deep learning.
+    - name: Rui Qian
+      title: Teaching Assistant
+      #      profile: https://github.com/
+      #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://rui1996.github.io">Rui Qian</a></strong> is interested in label-efficient and multimodal video understanding.
+    - name: Jin Sun
+      title: Teaching Assistant
+      #      profile: https://github.com/
+      #      img: img/volodymyr_kuleshov.jpg
+      description: <strong><a href="https://www.cs.cornell.edu/~jinsun/">Jin Sun</a></strong> focus in computer vision has been object recognition and scene understanding in general.
+
+

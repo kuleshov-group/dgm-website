@@ -1,12 +1,12 @@
 # Site Settings
 lang: en
-title: Deep Generated Models
-tagline: Deep Generated Models
-email: your-email@domain.com
+title: Deep Generative Models
+tagline: Deep Generative Models
+email: hw434@cornell.edu
 description: >
-  The site for Cornell Tech's Deep Generated Models.
+  The site for the Open Deep Generative Models course.
 baseurl: ""
-siteurl: ""
+siteurl: "https://kuleshov-group.github.io/dgm-website/"
 url: ""
 permalink: pretty
 # favicon: "/img/favicon.png"
@@ -25,7 +25,6 @@ disqus:
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   # shortname: my_disqus_shortname
   shortname: csrhymes
-
 
 plugins:
   - jekyll-sitemap
@@ -80,3 +79,5 @@ collections:
     layout: product
     image: https://via.placeholder.com/800x600
     show_sidebar: false
+  staff_members:
+    people: true
