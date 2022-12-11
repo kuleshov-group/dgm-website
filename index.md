@@ -4,8 +4,8 @@ subtitle: Cornell University - Stanford University - University of Illinois Urba
 layout: page
 show_sidebar: false
 hero_height: is-medium
-about: aml_about
-sponsors: aml_staff
+about: dgm_about
+sponsors: dgm_staff
 ---
 
 ***
