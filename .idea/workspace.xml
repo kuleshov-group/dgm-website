@@ -2,177 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Rebuilding site">
-      <change afterPath="$PROJECT_DIR$/docs/New folder/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/bulma-clean-theme.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/credits/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/assets/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/blog/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/bulma-clean-theme.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/changelog.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/credits/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/example-recipe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/index_bkup.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/landing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-with-contents/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-with-notification/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-with-video/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/page-without-hero/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/products/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/showcase/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/examples/sponsors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/feed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/gallery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/DGM_TradingCard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/blog-post-series.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/bulma-clean-theme-4by3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/cornell-tech-logo-optimized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/cornell_brand_registered.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/cornell_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/csrhymes-com.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/hero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/hero_image_tinted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/hero_image_tinted.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/jacobs_brand_registered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/jetbrains-variant-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/nathan_kallus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/recipe-example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/serge_belongie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/showcase/2020/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/showcase/2021/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/img/volodymyr_kuleshov.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/products/product1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/products/product2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/products/product3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/showcase/showcase_2020/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/showcase/showcase_2021/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/docs/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/example-recipe/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/index_bkup.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/landing/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-5/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-with-contents/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-with-notification/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-with-video/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/page-without-hero/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/products/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/showcase/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/examples/sponsors/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/gallery/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/DGM_TradingCard.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/blog-post-series.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/bulma-clean-theme-4by3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/cornell-tech-logo-optimized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/cornell_brand_registered.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/cornell_logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/csrhymes-com.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/hero.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/hero_image_tinted.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/hero_image_tinted.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/jacobs_brand_registered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/jetbrains-variant-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/nathan_kallus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/recipe-example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/serge_belongie.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/showcase/2020/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/showcase/2021/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/img/volodymyr_kuleshov.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/showcase/showcase_2020/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/showcase/showcase_2021/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/New folder/yarn.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/blog/page2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/course_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/course_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/example-recipe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/landing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-contents/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-video/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-without-hero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-without-hero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/showcase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/sponsors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/img/Dream_TradingCard-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/showcase/showcase_2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/showcase/showcase_2020/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/showcase/showcase_2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/showcase/showcase_2021/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,17 +34,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "yarn",
-    "ruby.rails.projectView.checked": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="" />
@@ -211,7 +53,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670372147798</updated>
-      <workItem from="1670372149127" duration="4093000" />
+      <workItem from="1670372149127" duration="6028000" />
+      <workItem from="1670722392527" duration="721000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -220,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670374514506</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rebuilding site">
+      <created>1670376279912</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670376279912</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Rebuilding site">
+      <created>1670376383210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670376383210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
