@@ -1,9 +1,565 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Rebuilding site">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/New folder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/New folder.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/New folder1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/New folder1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_data/dgm_staff.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/dgm_staff.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/2021/10/30/creating-a-post-series/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/bulma-clean-theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/credits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/bulma-clean-theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/credits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/example-recipe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/index_bkup.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-with-contents/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-with-image-modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-with-notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-with-video/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/page-without-hero/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/showcase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/examples/sponsors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/DGM_TradingCard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/blog-post-series.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/bulma-clean-theme-4by3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/cornell-tech-logo-optimized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/cornell_brand_registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/cornell_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/csrhymes-com.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/hero.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/hero_image_tinted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/hero_image_tinted.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/jacobs_brand_registered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/jetbrains-variant-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/nathan_kallus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/recipe-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/serge_belongie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/showcase/2020/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/showcase/2021/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/img/volodymyr_kuleshov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/products/product1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/products/product2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/products/product3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/showcase/showcase_2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/showcase/showcase_2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/docs/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/example-recipe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/index_bkup.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-with-contents/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-with-image-modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-with-notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-with-video/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/page-without-hero/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/showcase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/examples/sponsors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/DGM_TradingCard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/blog-post-series.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/bulma-clean-theme-4by3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/cornell-tech-logo-optimized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/cornell_brand_registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/cornell_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/csrhymes-com.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/hero.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/hero_image_tinted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/hero_image_tinted.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/jacobs_brand_registered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/jetbrains-variant-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/nathan_kallus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/recipe-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/serge_belongie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/showcase/2020/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/showcase/2021/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/img/volodymyr_kuleshov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/docs/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/bulma.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/generic.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/helpers.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/minireset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/card.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/level.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/list.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/message.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/modal.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/navbar.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/pagination.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/panel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/tabs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/box.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/button.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/container.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/content.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/form.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/icon.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/image.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/notification.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/progress.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/table.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/tag.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/title.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/checkbox-radio.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/file.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/input-textarea.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/select.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/shared.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/tools.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/grid/columns.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/grid/tiles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/hero.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/section.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/controls.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/functions.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/src/block-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma-block-list/src/demo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/bulma.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma-rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/base/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/base/generic.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/base/helpers.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/base/minireset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/card.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/level.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/message.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/modal.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/navbar.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/pagination.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/panel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/components/tabs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/box.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/button.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/container.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/content.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/form.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/icon.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/image.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/notification.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/progress.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/table.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/tag.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/elements/title.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/checkbox-radio.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/file.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/input-textarea.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/select.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/shared.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/form/tools.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/grid/columns.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/grid/tiles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/color.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/flexbox.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/float.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/overflow.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/position.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/spacing.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/typography.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/helpers/visibility.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/layout/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/layout/hero.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/layout/section.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/controls.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/extends.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/functions.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/node_modules/bulma/sass/utilities/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/showcase/showcase_2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/showcase/showcase_2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/New folder/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/blog/page2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/2021/10/30/creating-a-post-series/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/Gemfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/bulma-clean-theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/credits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/blog/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/bulma-clean-theme.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/credits/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/example-recipe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/index_bkup.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-with-contents/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-with-image-modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-with-notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-with-video/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/page-without-hero/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/showcase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/examples/sponsors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/feed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/DGM_TradingCard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/blog-post-series.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/bulma-clean-theme-4by3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/cornell-tech-logo-optimized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/cornell_brand_registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/cornell_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/csrhymes-com.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/hero.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/hero_image_tinted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/hero_image_tinted.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/jacobs_brand_registered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/jetbrains-variant-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/nathan_kallus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/recipe-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/serge_belongie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/showcase/2020/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/showcase/2021/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/img/volodymyr_kuleshov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/products/product1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/products/product2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/products/product3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/showcase/showcase_2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/showcase/showcase_2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/docs/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/example-recipe/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/index_bkup.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/landing/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-3/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-4/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-5/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-with-contents/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-with-image-modal/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-with-notification/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-with-video/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/page-without-hero/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/products/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/screenshot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/showcase/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/examples/sponsors/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/gallery/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/DGM_TradingCard.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/blog-post-series.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/bulma-clean-theme-4by3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/cornell-tech-logo-optimized.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/cornell_brand_registered.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/cornell_logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/csrhymes-com.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/hero.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/hero_image_tinted.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/hero_image_tinted.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/jacobs_brand_registered.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/jetbrains-variant-4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/nathan_kallus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/recipe-example.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/serge_belongie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/showcase/2020/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/showcase/2021/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/img/volodymyr_kuleshov.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/docs/Gemfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/docs/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/docs/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/bulma.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/generic.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/helpers.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/base/minireset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/card.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/level.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/list.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/message.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/modal.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/navbar.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/pagination.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/panel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/components/tabs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/box.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/button.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/container.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/content.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/form.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/icon.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/image.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/notification.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/progress.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/table.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/tag.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/elements/title.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/checkbox-radio.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/file.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/input-textarea.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/select.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/shared.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/form/tools.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/grid/columns.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/grid/tiles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/hero.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/layout/section.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/controls.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/functions.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/node_modules/bulma/sass/utilities/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/src/block-list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma-block-list/src/demo.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/bulma.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma-rtl.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma-rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/css/bulma.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/base/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/base/generic.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/base/helpers.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/base/minireset.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/breadcrumb.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/card.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/dropdown.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/level.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/media.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/menu.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/message.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/modal.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/navbar.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/pagination.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/panel.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/components/tabs.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/box.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/button.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/container.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/content.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/form.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/icon.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/image.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/notification.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/progress.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/table.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/tag.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/elements/title.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/checkbox-radio.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/file.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/input-textarea.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/select.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/shared.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/form/tools.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/grid/columns.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/grid/tiles.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/color.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/flexbox.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/float.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/other.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/overflow.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/position.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/spacing.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/typography.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/helpers/visibility.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/layout/footer.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/layout/hero.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/layout/section.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/animations.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/controls.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/derived-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/extends.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/functions.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/initial-variables.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/node_modules/bulma/sass/utilities/mixins.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/showcase/showcase_2020/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/showcase/showcase_2021/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/New folder/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/blog/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/blog/page2/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/index_bkup.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/_site/img/head_image.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/head_image.psd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +588,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ruby.rails.projectView.checked": "true"
+    "ruby.rails.projectView.checked": "true",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -46,7 +607,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670372147798</updated>
       <workItem from="1670372149127" duration="6028000" />
-      <workItem from="1670722392527" duration="4221000" />
+      <workItem from="1670722392527" duration="6264000" />
+      <workItem from="1670831351262" duration="1401000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -97,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670729137137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rebuilding site">
+      <created>1670731622542</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670731622542</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -11,15 +11,15 @@
     - name: Aditya Grover
       title: Assistant Professor
 #      profile: https://tech.cornell.edu/people/nathan-kallus/
-      img: img/nathan_kallus.jpg
+      img: img/aditya_grover.jpg
       description: <strong><a href="https://aditya-grover.github.io">Aditya Grover</a></strong>'s research is centered around machine learning with limited supervision, and am currently focussing on probabilistic generative modeling and sequential decision making under uncertainty.
     - name: Yang Song
       title: Assistant Professor
 #      profile: https://sergebelongie.github.io
-      img: img/serge_belongie.jpg
+      img: img/yang_song.jpg
       description: <strong><a href="https://yang-song.net/">Yang Song (宋飏)</a></strong> focuses on developing scalable methods for modeling, analyzing and generating complex, high-dimensional data.
     - name: Stefano Ermon
       title: Associate Professor
       #      profile: https://hongjunwu.com
-      img: img/hongjun_wu.jpg
+      img: img/stefano_ermon.jpg
       description: <strong><a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a></strong> enables innovative solutions to problems of broad societal relevance through advances in probabilistic modeling, learning and inference.

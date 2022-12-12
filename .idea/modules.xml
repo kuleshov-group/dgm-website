@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/New folder.iml" filepath="$PROJECT_DIR$/.idea/modules/New folder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/New folder1.iml" filepath="$PROJECT_DIR$/.idea/modules/New folder1.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dgm-website.iml" filepath="$PROJECT_DIR$/.idea/dgm-website.iml" />
     </modules>
   </component>
