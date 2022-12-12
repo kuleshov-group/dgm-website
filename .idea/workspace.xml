@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added photo for new people">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Fixed expsosure on Aditya's face">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/img/head_image.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/aditya_grover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/_site/img/aditya_grover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/_site/img/head_image.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/aditya_grover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/img/aditya_grover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/docs/img/head_image.psd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/aditya_grover.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/aditya_grover.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/img/head_image.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/course_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/course_content.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +55,7 @@
       <updated>1670372147798</updated>
       <workItem from="1670372149127" duration="6028000" />
       <workItem from="1670722392527" duration="6264000" />
-      <workItem from="1670831351262" duration="1971000" />
+      <workItem from="1670831351262" duration="9226000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -143,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670832835181</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed expsosure on Aditya's face">
+      <created>1670833342056</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670833342056</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +148,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Rebuilding site" />
     <MESSAGE value="Added photo for new people" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added photo for new people" />
+    <MESSAGE value="Fixed expsosure on Aditya's face" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed expsosure on Aditya's face" />
   </component>
 </project>
