@@ -5,59 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added more course content">
-      <change afterPath="$PROJECT_DIR$/_includes/course_features.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_includes/course_info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/aml_callouts.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/aml_callouts_simple.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/aml_credits.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/dgm_credits.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/aml_footer_menu.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/dgm_footer_menu.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/aml_intro.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/authors_gallery.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/course_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/course_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/index_bkup.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/landing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-video/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-without-hero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-without-hero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/showcase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/sponsors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/showcase/showcase_2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/showcase/showcase_2020/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/showcase/showcase_2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/showcase/showcase_2021/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/credits/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/sponsors/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +66,7 @@
       <workItem from="1670722392527" duration="6264000" />
       <workItem from="1670831351262" duration="11673000" />
       <workItem from="1671449711419" duration="1206000" />
-      <workItem from="1671630745049" duration="4514000" />
+      <workItem from="1671630745049" duration="4740000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -194,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671633312407</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added more course content">
+      <created>1671635492072</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671635492072</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
