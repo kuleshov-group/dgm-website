@@ -866,9 +866,9 @@
 <div class="container">
     <h2>Lecture 6: Learning Latent Variable Models.</h2>
     <div class="tags">
-        <span class="tag is-success is-light">KNN</span>
-        <span class="tag is-success is-light">Logistic Regression</span>
-        <span class="tag is-success is-light">Softmax Regression</span>
+        <span class="tag is-success is-light">Gradient-Based Optimization</span>
+        <span class="tag is-success is-light">Inference Amortization</span>
+        <span class="tag is-success is-light">The Variational Autoencoder</span>
     </div>
     <p>We continue our exploration in deep latent variable models. In this lecture, we focus on gradient-based optimization of the ELBO and Inference Amortization. We will also explore the variational autoencoder.</p>
     <div class="columns">
@@ -973,12 +973,12 @@
 <hr />
 
 <div class="container">
-    <h2>Lecture 7: Generative Algorithms.</h2>
+    <h2>Lecture 7: Normalizing Flows.</h2>
     <div class="tags">
-        <span class="tag is-success is-light">Generative models</span>
-        <span class="tag is-success is-light">Gaussian Discriminant Analysis</span>
+        <span class="tag is-success is-light">Normalizing Flows</span>
+        <span class="tag is-success is-light">Volume-Preserving Transformations</span>
     </div>
-    <p>We will discuss the difference between discriminative models and generative models, what generative models are, what can they do, and define Gaussian discriminant analysis.</p>
+    <p>This lecture contains an in-depth discussion of normalizing flows. We will discuss how to compose simple transformations and volume-preserving transformations. </p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -993,13 +993,13 @@
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                         <a href="https://youtu.be/Tfocb5ZPrJI" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            7.1 - Generative Models
+                            7.1 - Recap and Motivation for Normalizing Flows
                         </a>
                         <a href="https://youtu.be/LG5IQHD8b6w" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            7.2 - Gaussian Discriminant Analysis
+                            7.2 - Volume-Preserving Transformations
                         </a>
                         <a href="https://youtu.be/A2YHhvPLGrg" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            7.3 - Gaussian Discriminant Analysis (Learning)
+                            7.3 - Normalizing Flows
                         </a>
                     </div>
                 </div>
@@ -1078,13 +1078,13 @@
 <hr />
 
 <div class="container">
-    <h2>Lecture 8: Naive Bayes.</h2>
+    <h2>Lecture 8: Advanced Flow Models.</h2>
     <div class="tags">
-        <span class="tag is-success is-light">Naive Bayes</span>
-        <span class="tag is-success is-light">Bag of Words</span>
-        <span class="tag is-success is-light">Generative vs. Discriminative Methods</span>
+        <span class="tag is-success is-light">Triangular Jacobians</span>
+        <span class="tag is-success is-light">Autoregressive Flows</span>
+        <span class="tag is-success is-light">Probability Distillation</span>
     </div>
-    <p>Naive Bayes is a simple and popular classification algorithm. We will go over the mechanics of Naive Bayes as well as how to apply it to text classification.</p>
+    <p>Now that we have some knowledge in normalizing flows, we can begin discussing advanced flow models using Triangular Jacobians, autoregressive flows, probability distillation, and parallel wavenet.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -1099,13 +1099,16 @@
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                         <a href="https://youtu.be/y4_g_Ni3bGw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            8.1 - Text Classification
+                            8.1 - Recap and Motivation for Normalizing Flows
                         </a>
                         <a href="https://youtu.be/p1yvm_enevw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            8.2 - Naive Bayes
+                            8.2 - Flows With Triangular Jacobians
                         </a>
                         <a href="https://youtu.be/JGvT7QCdipQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            8.3 - Naive Bayes (Learning)
+                            8.3 - Autoregressive Flows
+                        </a>
+                        <a href="https://youtu.be/JGvT7QCdipQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
+                            8.4 - Probability Distillation and Parallel Wavenet
                         </a>
                     </div>
                 </div>
@@ -1184,15 +1187,12 @@
 <hr />
 
 <div class="container">
-    <h2>Lecture 9: Support Vector Machines.</h2>
+    <h2>Lecture 9: Generative Adversarial Networks.</h2>
     <div class="tags">
-        <span class="tag is-success is-light">SVM</span>
-        <span class="tag is-success is-light">Margins</span>
-        <span class="tag is-success is-light">Max-margin Classifiers</span>
-        <span class="tag is-success is-light">Hinge Loss</span>
-        <span class="tag is-success is-light">Sub-gradient Descent</span>
+        <span class="tag is-success is-light">Likelihood-Free Learning</span>
+        <span class="tag is-success is-light">Generative Adversarial Networks</span>
     </div>
-    <p>Support vector machines are one of the most robust prediction methods in machine learning. We will go over margins, loss, as well as optimization for SVMs.</p>
+    <p>We will now start walking into the direction of likelihood-free learning, and discuss the hot topic of Generative Adversarial Networks (GANs). </p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -1207,16 +1207,10 @@
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                         <a href="https://youtu.be/eeDB1BP17Qw" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            9.1 - Classification Margins
+                            9.1 - Towards Likelihood-Free Learning
                         </a>
                         <a href="https://youtu.be/QATK9sjETzY" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            9.2 - The Max-Margin Classifier
-                        </a>
-                        <a href="https://youtu.be/kgTKHq9G2lQ" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            9.3 - Soft Margins and the Hinge Loss
-                        </a>
-                        <a href="https://youtu.be/lqkZq7qqXL8" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            9.4 - Optimization for SVMs
+                            9.2 - Generative Adversarial Networks
                         </a>
                     </div>
                 </div>
@@ -1295,7 +1289,7 @@
 <hr />
 
 <div class="container">
-    <h2>Lecture 10: Dual Formulation of Support Vector Machines.</h2>
+    <h2>Lecture 10: Advanced Topics in Generative Adversarial Networks.</h2>
     <div class="tags">
         <span class="tag is-success is-light">Lagrange Duality</span>
         <span class="tag is-success is-light">Dual Formulation of SVM</span>
@@ -1316,13 +1310,13 @@
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                         <a href="https://youtu.be/EOMy6rahdJc" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            10.1 - Lagrange Duality
+                            10.1 - Training Generative Models Using Arbitrary Divergences
                         </a>
                         <a href="https://youtu.be/w1DpuuQqt1U" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            10.2 - Dual Formulation of SVMs
+                            10.2 - Latent Variable Modeling in GANs
                         </a>
                         <a href="https://youtu.be/6LeGsxA-Aco" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            10.3 - More on SVM Duals
+                            10.3 - Domain Translation
                         </a>
                     </div>
                 </div>
@@ -1401,13 +1395,13 @@
 <hr />
 
 <div class="container">
-    <h2>Lecture 11: Kernels.</h2>
+    <h2>Lecture 11: Energy-Based Models.</h2>
     <div class="tags">
-        <span class="tag is-success is-light">Kernels</span>
-        <span class="tag is-success is-light">Mercer's Theorem</span>
-        <span class="tag is-success is-light">RBF Kernels</span>
+        <span class="tag is-success is-light">Energy-Based Models</span>
+        <span class="tag is-success is-light">Representation</span>
+        <span class="tag is-success is-light">Learning</span>
     </div>
-    <p>In this lecture, we will explain what Kernels mean in machine learning, we will provide examples, as well as how to apply the kernel trick in support vector machines.</p>
+    <p>In this lecture, we explain energy-based models, representation, and learning of energy-based models.</p>
     <div class="columns">
         <div class="column">
             <div class="dropdown">
@@ -1422,16 +1416,13 @@
                 <div class="dropdown-menu" id="dropdown-menu" role="menu">
                     <div class="dropdown-content">
                         <a href="https://youtu.be/Cjvg7nhb2dk" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            11.1 - The Kernel Trick (Intuition)
+                            11.1 - Energy-Based Models
                         </a>
                         <a href="https://youtu.be/41a6ayyWOWM" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            11.2 - The Kernel Trick (Example)
+                            11.2 - Representation
                         </a>
                         <a href="https://youtu.be/16nF6g7C4q8" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            11.3 - The Kernel Trick in SVMs
-                        </a>
-                        <a href="https://youtu.be/Z7wzZa4EUEs" class="dropdown-item" target="_blank" rel="noopener noreferrer">
-                            11.4 - Types of Kernels
+                            11.3 - Learning
                         </a>
                     </div>
                 </div>

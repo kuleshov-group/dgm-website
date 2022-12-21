@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Fixed expsosure on Aditya's face">
+    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added more course content">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/course_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/course_content.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/img/head_image.psd" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/img/head_image.psd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ruby.rails.projectView.checked": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="TaskManager">
@@ -55,7 +75,9 @@
       <updated>1670372147798</updated>
       <workItem from="1670372149127" duration="6028000" />
       <workItem from="1670722392527" duration="6264000" />
-      <workItem from="1670831351262" duration="9226000" />
+      <workItem from="1670831351262" duration="11673000" />
+      <workItem from="1671449711419" duration="1206000" />
+      <workItem from="1671630745049" duration="2386000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -127,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670833342056</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added more course content">
+      <created>1670846930764</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670846930764</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +178,7 @@
     <MESSAGE value="Rebuilding site" />
     <MESSAGE value="Added photo for new people" />
     <MESSAGE value="Fixed expsosure on Aditya's face" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed expsosure on Aditya's face" />
+    <MESSAGE value="Added more course content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added more course content" />
   </component>
 </project>
