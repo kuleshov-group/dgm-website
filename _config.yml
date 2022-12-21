@@ -71,7 +71,7 @@ defaults:
 markdown: kramdown
 highlighter: rouge
 
-footer_menu: aml_footer_menu
+footer_menu: dgm_footer_menu
 
 collections:
   products: 

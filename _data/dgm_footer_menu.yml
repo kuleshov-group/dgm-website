@@ -1,6 +1,8 @@
 - name: Cornell Tech
   link: https://www.tech.cornell.edu
-- name: Cornell CIS
-  link: https://www.cs.cornell.edu
+- name: Stanford
+  link: https://cs.stanford.edu/
+- name: UIUC
+  link: https://cs.illinois.edu/
 - name: Credits
   link: /aml-website/credits

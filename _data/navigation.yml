@@ -8,17 +8,9 @@
 
 - name: Past Offerings
   dropdown:
-    - name: 2022 (Kuleshov)
+    - name: 2022 (Cornell)
       link: https://canvas.cornell.edu/courses/44798
-    - name: 2021 (Kuleshov)
-      link: https://github.com/kuleshov/cornell-cs5785-2021-applied-ml
-    - name: 2020 (Kuleshov)
-      link: https://github.com/kuleshov/cornell-cs5785-2020-applied-ml
-    - name: 2019 (Belongie)
-      link: https://cornelltech.github.io/cs5785-fall-2019/
-    - name: 2019 (Kallus)
-      link: https://cs5785-2019.github.io
-    - name: 2018 (Belongie)
-      link: https://cornelltech.github.io/cs5785-fall-2018/index.html
-    - name: 2017 (Belongie)
-      link: https://cornelltech.github.io/cs5785-fall-2017/index.html
+    - name: Fall 2021 (Stanford)
+      link: https://deepgenerativemodels.github.io/
+    - name: Spring 2020 (Cornell)
+      link: https://kuleshov.github.io/cornell-deep-generative-models-course/
