@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added more course content">
-      <change beforePath="$PROJECT_DIR$/_includes/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
@@ -13,37 +14,13 @@
       <change beforePath="$PROJECT_DIR$/_site/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/credits/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/example-recipe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/index_bkup.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/landing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-contents/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-notification/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-with-video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-with-video/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/page-without-hero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/page-without-hero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/examples/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/showcase/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/examples/sponsors/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/gallery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/showcase/showcase_2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/showcase/showcase_2020/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/showcase/showcase_2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/showcase/showcase_2021/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/index_bkup.bak" afterDir="false" />
@@ -52,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/_site/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-5/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" afterDir="false" />
@@ -119,7 +97,8 @@
       <workItem from="1670722392527" duration="6264000" />
       <workItem from="1670831351262" duration="11673000" />
       <workItem from="1671449711419" duration="1206000" />
-      <workItem from="1671630745049" duration="4841000" />
+      <workItem from="1671630745049" duration="6854000" />
+      <workItem from="1671697670752" duration="1204000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -219,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671635679057</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added more course content">
+      <created>1671635803400</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671635803400</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,11 +1,3 @@
-#- name: Student Projects
-#  link: /#
-#  dropdown:
-#    - name: 2021
-#      link: /showcase/showcase_2021/
-#    - name: 2020
-#      link: /showcase/showcase_2020/
-
 - name: Past Offerings
   dropdown:
     - name: 2022 (Cornell)
@@ -14,3 +6,7 @@
       link: https://deepgenerativemodels.github.io/
     - name: Spring 2020 (Cornell)
       link: https://kuleshov.github.io/cornell-deep-generative-models-course/
+    - name: Fall 2020 (Stanford)
+      link: https://deepgenerativemodels.github.io/
+    - name: Fall 2019 (Stanford)
+      link: https://deepgenerativemodels.github.io/
