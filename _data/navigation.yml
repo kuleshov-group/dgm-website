@@ -1,12 +1,14 @@
 - name: Past Offerings
   dropdown:
-    - name: 2022 (Cornell)
-      link: https://canvas.cornell.edu/courses/44798
+    - name: Spring 2022 (Cornell)
+      link: https://canvas.cornell.edu/courses/38521
     - name: Fall 2021 (Stanford)
+      link: https://deepgenerativemodels.github.io/
+    - name: Spring 2021 (Cornell)
+      link: https://canvas.cornell.edu/courses/27332
+    - name: Fall 2020 (Stanford)
       link: https://deepgenerativemodels.github.io/
     - name: Spring 2020 (Cornell)
       link: https://kuleshov.github.io/cornell-deep-generative-models-course/
-    - name: Fall 2020 (Stanford)
-      link: https://deepgenerativemodels.github.io/
     - name: Fall 2019 (Stanford)
       link: https://deepgenerativemodels.github.io/
