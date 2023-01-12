@@ -4,22 +4,22 @@
 #    This is the description for the Instructors (Probably don't need it but implemented it anyway)
   sponsors:
     - name: Volodymyr Kuleshov
-      title: Assistant Professor
+      title: Assistant Professor<br>Cornell Tech
 #      profile: https://www.cs.cornell.edu/~kuleshov/
       img: img/volodymyr_kuleshov.jpg
       description: <strong><a href="https://www.cs.cornell.edu/~kuleshov/">Volodymyr Kuleshov</a></strong> focuses on machine learning and its applications in scientific discovery, health, and sustainability. He is also the co-founder of Afresh, a startup that uses AI to significantly driving down food waste.
     - name: Aditya Grover
-      title: Assistant Professor
+      title: Assistant Professor<br>UCLA
 #      profile: https://tech.cornell.edu/people/nathan-kallus/
       img: img/aditya_grover.jpg
       description: <strong><a href="https://aditya-grover.github.io">Aditya Grover</a></strong>'s research is centered around machine learning with limited supervision, and am currently focussing on probabilistic generative modeling and sequential decision making under uncertainty.
     - name: Yang Song
-      title: Assistant Professor
+      title: Assistant Professor<br>CalTech
 #      profile: https://sergebelongie.github.io
       img: img/yang_song.jpg
       description: <strong><a href="https://yang-song.net/">Yang Song (宋飏)</a></strong> focuses on developing scalable methods for modeling, analyzing and generating complex, high-dimensional data.
     - name: Stefano Ermon
-      title: Associate Professor
+      title: Associate Professor<br>Stanford
       #      profile: https://hongjunwu.com
       img: img/stefano_ermon.jpg
       description: <strong><a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a></strong> enables innovative solutions to problems of broad societal relevance through advances in probabilistic modeling, learning and inference.
