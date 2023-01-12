@@ -1,6 +1,6 @@
 ---
 title: Deep Generative Models
-subtitle: Cornell University - Stanford University - UIUC
+subtitle: Probabilistic foundations and learning algorithms for deep generative models.
 layout: page
 show_sidebar: false
 hero_height: is-medium
