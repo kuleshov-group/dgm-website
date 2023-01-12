@@ -2,7 +2,9 @@
   link: https://www.tech.cornell.edu
 - name: Stanford
   link: https://cs.stanford.edu/
-- name: UIUC
-  link: https://cs.illinois.edu/
+- name: UCLA
+  link: https://www.ucla.edu/
+- name: CalTech
+  link: https://www.caltech.edu/
 - name: Credits
   link: /aml-website/credits
