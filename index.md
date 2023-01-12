@@ -1,6 +1,6 @@
 ---
 title: Deep Generative Models
-subtitle: Probabilistic foundations and learning algorithms for deep generative models.
+subtitle: Probabilistic foundations and learning algorithms.
 layout: page
 show_sidebar: false
 hero_height: is-medium
