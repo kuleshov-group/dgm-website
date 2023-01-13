@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Changed color tint">
+    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added white logo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +61,7 @@
       <workItem from="1671800938377" duration="1669000" />
       <workItem from="1672030857587" duration="7232000" />
       <workItem from="1673276314181" duration="1525000" />
-      <workItem from="1673431797106" duration="18201000" />
+      <workItem from="1673431797106" duration="19265000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673531140851</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Added white logo">
+      <created>1673613725952</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673613725952</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +318,7 @@
     <MESSAGE value="Fixed expsosure on Aditya's face" />
     <MESSAGE value="Added more course content" />
     <MESSAGE value="Changed color tint" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed color tint" />
+    <MESSAGE value="Added white logo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added white logo" />
   </component>
 </project>
