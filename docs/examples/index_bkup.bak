@@ -37,7 +37,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Probabilistic and Generative Models" />
 <script type="application/ld+json">
-{"@type":"WebPage","description":"The site for the Open Deep Generative Models course.","headline":"Deep Probabilistic and Generative Models","url":"/examples/index_bkup.bak","@context":"https://schema.org"}</script>
+{"url":"/examples/index_bkup.bak","headline":"Deep Probabilistic and Generative Models","@type":"WebPage","description":"The site for the Open Deep Generative Models course.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <!-- head scripts --></head>
 
