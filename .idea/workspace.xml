@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Added Winter 2022 for UCLA and force trigger rebuild">
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+    <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Configured gemlock for github actions to run">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/dgm_staff.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/dgm_staff.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sponsors.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +66,7 @@
       <workItem from="1673431797106" duration="19265000" />
       <workItem from="1674836734421" duration="3866000" />
       <workItem from="1675441805727" duration="1701000" />
-      <workItem from="1677986272981" duration="2815000" />
+      <workItem from="1677986272981" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -325,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677990176865</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Configured gemlock for github actions to run">
+      <created>1677990445203</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1677990445203</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Configured gemlock for github actions to run">
+      <created>1677990548737</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1677990548737</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,6 +369,7 @@
     <MESSAGE value="Addressed problems from last meeting and added contents" />
     <MESSAGE value="Deleted docs and _site" />
     <MESSAGE value="Added Winter 2022 for UCLA and force trigger rebuild" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Winter 2022 for UCLA and force trigger rebuild" />
+    <MESSAGE value="Configured gemlock for github actions to run" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configured gemlock for github actions to run" />
   </component>
 </project>
