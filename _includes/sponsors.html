@@ -24,7 +24,7 @@
 
             <div class="columns is-multiline is-centered">
                 {% for sponsor in tier.sponsors %}
-                <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-3-desktop is-4-tablet {% endif %}">
+                <div class="column {% if tier.size == 'large' %} is-4-desktop is-6-tablet {% else %} is-one-fifth-desktop is-4-tablet {% endif %}">
                     <div class="box has-text-centered">
                         <p class="title {% if tier.size == 'large' %} is-4 {% elsif tier.size == 'small' %} is-6 {% else %} is-5 {% endif %}">
                             {{ sponsor.name }}

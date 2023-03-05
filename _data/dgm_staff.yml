@@ -23,3 +23,8 @@
       #      profile: https://hongjunwu.com
       img: img/stefano_ermon.jpg
       description: <strong><a href="https://cs.stanford.edu/~ermon/">Stefano Ermon</a></strong> enables innovative solutions to problems of broad societal relevance through advances in probabilistic modeling, learning and inference.
+    - name: Hongjun Wu
+      title: Producer,<br>Cornell Tech
+      #      profile: https://hongjunwu.com
+      img: img/hongjun_wu.jpg
+      description: <strong><a href="https://hongjunwu.com">Hongjun Wu</a></strong> is interested in applying machine learning techniques to optimize 3D animation and video games. He is working on automated procedural mesh and shader generation with artificial intelligence.

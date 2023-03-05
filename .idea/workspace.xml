@@ -5,147 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05df5875-b4a3-4d46-970e-cfdd39541905" name="Changes" comment="Addressed problems from last meeting and added contents">
-      <change afterPath="$PROJECT_DIR$/.sass-cache/00d491759671b8abfdabde38c2d28096d1064e45/bulma.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/box.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/button.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/container.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/content.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/icon.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/image.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/notification.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/other.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/progress.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/table.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/tag.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/21ccfd8a13b699dce34843feb3d9dd4b8098515c/title.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/color.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/flexbox.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/float.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/other.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/overflow.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/position.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/spacing.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/typography.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/4d533356907e4d7afd81cf9fb87de4d41849ae2e/visibility.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/checkbox-radio.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/file.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/input-textarea.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/select.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/shared.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/67ec95d230822930342587b58064cd843eb5306b/tools.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6deafaa7d871b125fbd1f7f14c42ff488dca7d2e/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6deafaa7d871b125fbd1f7f14c42ff488dca7d2e/animations.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6deafaa7d871b125fbd1f7f14c42ff488dca7d2e/generic.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/6deafaa7d871b125fbd1f7f14c42ff488dca7d2e/minireset.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/7aaeef4a5231f31823e676fdf32e9ba58775083a/block-list.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a72b845c1e9c2b52dd090f06f7c1fd0bb9029171/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a72b845c1e9c2b52dd090f06f7c1fd0bb9029171/footer.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a72b845c1e9c2b52dd090f06f7c1fd0bb9029171/hero.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/a72b845c1e9c2b52dd090f06f7c1fd0bb9029171/section.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/controls.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/derived-variables.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/extends.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/functions.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/initial-variables.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/b8c3d2821529ff556829a9e5704b8a6b587448a8/mixins.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/breadcrumb.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/card.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/dropdown.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/level.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/media.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/menu.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/message.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/modal.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/navbar.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/pagination.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/panel.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/dc734e13948cda733e873d3c3ceb2a55424d004e/tabs.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/e64a58d91b751d16e499445375adada1b76f4b19/_all.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/e64a58d91b751d16e499445375adada1b76f4b19/columns.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/e64a58d91b751d16e499445375adada1b76f4b19/tiles.sassc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/f0bfb4d73a780770842318a0772b0183d1809673/_layout.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/f0bfb4d73a780770842318a0772b0183d1809673/_main.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/f0bfb4d73a780770842318a0772b0183d1809673/_showcase.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.sass-cache/f0bfb4d73a780770842318a0772b0183d1809673/syntax.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/development/2019/02/09/getting-started-with-bulma-clean-theme/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/course_content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/course_content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/dgm_staff.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/dgm_staff.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/sponsors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.png" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.psd" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/img/hero_image_tinted.psd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/products/product3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/docs/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/example-recipe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/index_bkup.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/landing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-contents/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-notification/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-with-video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-with-video/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/page-without-hero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/page-without-hero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/examples/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/showcase/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/examples/sponsors/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/gallery/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/showcase/showcase_2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/showcase/showcase_2020/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/showcase/showcase_2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/showcase/showcase_2021/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2019/07/23/introducing-some-new-layouts-to-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2020/05/08/creating-a-docs-site-with-bulma-clean-theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/2021/10/30/creating-a-post-series/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/2021/10/30/creating-a-post-series/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/credits/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/credits/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/development/2018/05/28/why-use-a-static-site-generator/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/development/2019/02/10/getting-started-with-bulma-clean-theme/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/example-recipe/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/example-recipe/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/index_bkup.bak" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/index_bkup.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/landing/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/landing/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-4/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-5/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-with-contents/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-with-contents/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-with-image-modal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-with-image-modal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-with-notification/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-with-notification/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-with-video/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-with-video/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/page-without-hero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/page-without-hero/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/products/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/products/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/showcase/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/showcase/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/examples/sponsors/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/examples/sponsors/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/gallery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/gallery/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/products/product3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/products/product3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase/showcase_2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/showcase_2020/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/showcase/showcase_2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/showcase/showcase_2021/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/sitemap.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,6 +77,8 @@
       <workItem from="1673276314181" duration="1525000" />
       <workItem from="1673431797106" duration="19265000" />
       <workItem from="1674836734421" duration="3866000" />
+      <workItem from="1675441805727" duration="1701000" />
+      <workItem from="1677986272981" duration="2289000" />
     </task>
     <task id="LOCAL-00001" summary="Rebuilding site">
       <created>1670374514506</created>
@@ -442,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674840531580</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Addressed problems from last meeting and added contents">
+      <created>1675441855597</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1675441855597</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
