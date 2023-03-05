@@ -2,6 +2,8 @@
   dropdown:
     - name: Spring 2022 (Cornell)
       link: https://canvas.cornell.edu/courses/38521
+    - name: Winter 2022 (UCLA)
+      link: https://grover-group.github.io/dgm-win22/
     - name: Fall 2021 (Stanford)
       link: https://deepgenerativemodels.github.io/
     - name: Spring 2021 (Cornell)
